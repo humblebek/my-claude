@@ -1,18 +1,14 @@
 {
   "name": "azizbek-laravel-backend",
   "owner": {
-    "name": "Azizbek",
-    "url": "https://github.com/humblebek"
+    "name": "Azizbek"
   },
   "plugins": [
     {
       "name": "azizbek-laravel-backend",
+      "source": ".",
       "description": "Laravel/PHP backend development plugin with PostgreSQL - 14 commands, 12 AI agents",
-      "version": "1.0.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/humblebek/my-claude.git"
-      }
+      "version": "1.0.0"
     }
   ]
 }

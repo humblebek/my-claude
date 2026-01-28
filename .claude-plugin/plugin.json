@@ -1,38 +1,150 @@
 {
   "name": "azizbek-laravel-backend",
   "version": "1.0.0",
-  "description": "Laravel Backend Development Plugin with PostgreSQL support - Commands and AI Agents for PHP/Laravel backend development",
+  "description": "Laravel/PHP backend development plugin with PostgreSQL - 14 commands and 12 AI agents for modern backend development",
   "author": "Azizbek",
-  "repository": "https://github.com/yourusername/azizbek-laravel-backend-plugin",
-  "minClaudeCodeVersion": "2.0.0",
+  "license": "MIT",
   "commands": [
-    "new-task",
-    "code-explain",
-    "code-optimize",
-    "code-cleanup",
-    "feature-plan",
-    "lint",
-    "docs-generate",
-    "api-new",
-    "api-test",
-    "api-protect",
-    "migration-new",
-    "model-new",
-    "db-optimize",
-    "seeder-new"
+    {
+      "name": "new-task",
+      "path": ".claude/commands/new-task.md",
+      "description": "Start new task with codebase analysis"
+    },
+    {
+      "name": "code-explain",
+      "path": ".claude/commands/code-explain.md",
+      "description": "Generate detailed code explanations"
+    },
+    {
+      "name": "code-optimize",
+      "path": ".claude/commands/code-optimize.md",
+      "description": "Optimize code for performance"
+    },
+    {
+      "name": "code-cleanup",
+      "path": ".claude/commands/code-cleanup.md",
+      "description": "Clean up and refactor code"
+    },
+    {
+      "name": "feature-plan",
+      "path": ".claude/commands/feature-plan.md",
+      "description": "Plan feature implementation"
+    },
+    {
+      "name": "lint",
+      "path": ".claude/commands/lint.md",
+      "description": "Run linting and fix issues"
+    },
+    {
+      "name": "docs-generate",
+      "path": ".claude/commands/docs-generate.md",
+      "description": "Generate documentation"
+    },
+    {
+      "name": "api-new",
+      "path": ".claude/commands/api-new.md",
+      "description": "Create complete RESTful API"
+    },
+    {
+      "name": "api-test",
+      "path": ".claude/commands/api-test.md",
+      "description": "Generate comprehensive test suites"
+    },
+    {
+      "name": "api-protect",
+      "path": ".claude/commands/api-protect.md",
+      "description": "Add security and validation"
+    },
+    {
+      "name": "migration-new",
+      "path": ".claude/commands/migration-new.md",
+      "description": "Create database migration"
+    },
+    {
+      "name": "model-new",
+      "path": ".claude/commands/model-new.md",
+      "description": "Generate Eloquent model"
+    },
+    {
+      "name": "db-optimize",
+      "path": ".claude/commands/db-optimize.md",
+      "description": "Optimize database performance"
+    },
+    {
+      "name": "seeder-new",
+      "path": ".claude/commands/seeder-new.md",
+      "description": "Create database seeder"
+    }
   ],
   "agents": [
-    "tech-stack-researcher",
-    "system-architect",
-    "backend-architect",
-    "requirements-analyst",
-    "refactoring-expert",
-    "performance-engineer",
-    "security-engineer",
-    "technical-writer",
-    "learning-guide",
-    "deep-research-agent",
-    "database-architect",
-    "laravel-expert"
+    {
+      "name": "tech-stack-researcher",
+      "path": ".claude/agents/tech-stack-researcher.md",
+      "description": "Research and recommend technology choices for Laravel development"
+    },
+    {
+      "name": "system-architect",
+      "path": ".claude/agents/system-architect.md",
+      "description": "Design scalable Laravel backend architecture"
+    },
+    {
+      "name": "backend-architect",
+      "path": ".claude/agents/backend-architect.md",
+      "description": "Design reliable backend systems with focus on data integrity and security"
+    },
+    {
+      "name": "requirements-analyst",
+      "path": ".claude/agents/requirements-analyst.md",
+      "description": "Transform project ideas into concrete technical specifications"
+    },
+    {
+      "name": "refactoring-expert",
+      "path": ".claude/agents/refactoring-expert.md",
+      "description": "Improve code quality through systematic refactoring"
+    },
+    {
+      "name": "performance-engineer",
+      "path": ".claude/agents/performance-engineer.md",
+      "description": "Optimize Laravel and PostgreSQL performance"
+    },
+    {
+      "name": "security-engineer",
+      "path": ".claude/agents/security-engineer.md",
+      "description": "Identify security vulnerabilities and ensure best practices"
+    },
+    {
+      "name": "technical-writer",
+      "path": ".claude/agents/technical-writer.md",
+      "description": "Create clear technical documentation and API docs"
+    },
+    {
+      "name": "learning-guide",
+      "path": ".claude/agents/learning-guide.md",
+      "description": "Teach Laravel concepts with progressive learning approach"
+    },
+    {
+      "name": "deep-research-agent",
+      "path": ".claude/agents/deep-research-agent.md",
+      "description": "Comprehensive research with adaptive strategies"
+    },
+    {
+      "name": "database-architect",
+      "path": ".claude/agents/database-architect.md",
+      "description": "PostgreSQL database design and optimization expert"
+    },
+    {
+      "name": "laravel-expert",
+      "path": ".claude/agents/laravel-expert.md",
+      "description": "Deep Laravel framework knowledge and best practices"
+    }
+  ],
+  "tags": [
+    "laravel",
+    "php",
+    "postgresql",
+    "backend",
+    "api",
+    "development",
+    "database"
   ]
 }

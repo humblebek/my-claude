@@ -1,14 +1,21 @@
 {
   "name": "azizbek-laravel-backend",
   "owner": {
-    "name": "Azizbek"
+    "name": "Azizbek",
+    "contact": "github.com/humblebek"
   },
+  "description": "Azizbek's Laravel Backend Plugin for productive Laravel/PHP development with PostgreSQL",
   "plugins": [
     {
       "name": "azizbek-laravel-backend",
-      "source": ".",
-      "description": "Laravel/PHP backend development plugin with PostgreSQL - 14 commands, 12 AI agents",
-      "version": "1.0.0"
+      "source": "./",
+      "description": "Laravel/PHP backend development plugin with PostgreSQL - 14 commands and 12 AI agents for modern backend development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Azizbek",
+        "email": "[email protected]"
+      },
+      "tags": ["laravel", "php", "postgresql", "backend", "api", "development"]
     }
   ]
 }

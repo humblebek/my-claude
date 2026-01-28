@@ -1,0 +1,38 @@
+{
+  "name": "azizbek-laravel-backend",
+  "version": "1.0.0",
+  "description": "Laravel Backend Development Plugin with PostgreSQL support - Commands and AI Agents for PHP/Laravel backend development",
+  "author": "Azizbek",
+  "repository": "https://github.com/yourusername/azizbek-laravel-backend-plugin",
+  "minClaudeCodeVersion": "2.0.0",
+  "commands": [
+    "new-task",
+    "code-explain",
+    "code-optimize",
+    "code-cleanup",
+    "feature-plan",
+    "lint",
+    "docs-generate",
+    "api-new",
+    "api-test",
+    "api-protect",
+    "migration-new",
+    "model-new",
+    "db-optimize",
+    "seeder-new"
+  ],
+  "agents": [
+    "tech-stack-researcher",
+    "system-architect",
+    "backend-architect",
+    "requirements-analyst",
+    "refactoring-expert",
+    "performance-engineer",
+    "security-engineer",
+    "technical-writer",
+    "learning-guide",
+    "deep-research-agent",
+    "database-architect",
+    "laravel-expert"
+  ]
+}
